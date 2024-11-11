@@ -6,7 +6,6 @@ import provinceCoordinates from '../constants/provinceCoordinates';
 export default function MapScreen({ route }) {
   const { province } = route.params;
 
-  // Get the coordinates for the selected province or set default to Jakarta
   const region = provinceCoordinates[province] || {
     latitude: -6.2088,
     longitude: 106.8456,
