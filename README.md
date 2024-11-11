@@ -1,6 +1,3 @@
-Here's a sample `README.md` for your GitHub project:
-
-```markdown
 # HospitalApp
 
 HospitalApp is a React Native application that allows users to view a list of COVID-19 hospitals in Indonesia and view their locations on a map. The app fetches hospital data from an API and presents it in a user-friendly interface with hospital names, addresses, and the option to view each hospital's location on a map.
@@ -26,7 +23,7 @@ HospitalApp is a React Native application that allows users to view a list of CO
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/HospitalApp.git
+   git clone https://github.com/ajhadi/Binus-Exam-HospitalApp.git
    ```
 
 2. Install dependencies:
@@ -65,18 +62,18 @@ https://dekontaminasi.com/api/id/covid19/hospitals
 ```json
 [
   {
-    "name": "Hospital A",
-    "address": "Jalan XYZ No.123, Jakarta",
-    "province": "Jakarta",
-    "lat": -6.2088,
-    "long": 106.8456
+    "name": "RS UMUM DAERAH  DR. ZAINOEL ABIDIN",
+    "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
+    "region": "KOTA BANDA ACEH, ACEH",
+    "phone": "(0651) 34565",
+    "province": "Aceh"
   },
   {
-    "name": "Hospital B",
-    "address": "Jalan ABC No.456, Surabaya",
-    "province": "East Java",
-    "lat": -7.2504,
-    "long": 112.7688
+    "name": "RS UMUM DAERAH CUT MEUTIA KAB. ACEH UTARA",
+    "address": "JL. BANDA ACEH-MEDAN KM.6 BUKET RATA LHOKSEUMAWE",
+    "region": "KOTA LHOKSEUMAWE, ACEH",
+    "phone": "(0645) 46334",
+    "province": "Aceh"
   }
 ]
 ```
@@ -124,10 +121,3 @@ Displays a map with a marker for the selected hospital. The map is centered base
 3. Commit your changes (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature-name`).
 5. Create a new Pull Request.
-
-## License
-
-MIT License. See `LICENSE` for more details.
-```
-
-Make sure to replace any placeholder information, like `https://github.com/your-username/HospitalApp.git` and the screenshot paths, with the actual information relevant to your project.
